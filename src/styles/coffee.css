@@ -1,0 +1,275 @@
+
+/* Backgrounds */
+
+.bg {
+    /* The image used */
+    background-image: url("../assets/img/coffeeHanging.jpg");
+    
+    /* Full viewport height */
+    height: 100vh;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Flexbox for centering the content */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    
+    /* Center the text horizontally */
+    text-align: center;
+  }
+
+.bg2 { /* Has media changes */
+    /* The image used */
+    background-image: url("../assets/img/paisajaCafe.jpg");
+    
+    /* Full viewport height */
+    height: 100vh;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.bg-coffee{
+  background-color: lightgray;
+}  
+
+
+/* Brazil */ 
+.bg-accordion1-br { /* Technicla sheet accordion decorator */
+  background-image: url('../assets/img/flowers-floresta.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion2-br {
+  background-image: url('../assets/img/cherries-floresta.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion3-br {
+  background-image: url('../assets/img/floresta-soil.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion4-br {
+  background-image: url('../assets/img/fazenda-floresta.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion5-br {
+  background-image: url('../assets/img/floresta-coffee.jpeg'); 
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion6-br {
+  background-image: url('../assets/img/floresta-cup.jpeg'); 
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+/* Colombia */
+.bg-accordion1-co { /* Technicla sheet accordion decorator */
+  background-image: url('../assets/img/flowers-colombia.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion2-co {
+  background-image: url('../assets/img/cherries-colombia.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion3-co {
+  background-image: url('../assets/img/colombia-soil.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion4-co {
+  background-image: url('../assets/img/cafetalero-colombia.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion5-co {
+  background-image: url('../assets/img/colombia-coffee.jpg'); 
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.bg-accordion6-co {
+  background-image: url('../assets/img/floresta-cup.jpeg'); 
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+
+/* Container holidng the SVGs */
+.flex-container {
+  position: relative; /* Use relative positioning for the container */
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+/* SVG plant per country*/
+
+.plant-brazil { /* Has media changes */
+    position: absolute;
+    top: 39%; /* Adjust the top position as needed */
+    left: 62%; /* Adjust the left position as needed */
+    z-index: 1; /* Ensures the flag appears on top of the map */
+  }
+
+.plant-colombia {
+    position: absolute;
+    top: 28%; /* Adjust the top position as needed */
+    left: 50%; /* Adjust the left position as needed */
+    z-index: 1; /* Ensures the flag appears on top of the map */
+  }
+
+.image-container img {
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto; /* Allow the image to adjust its height proportionally */
+}
+
+.image-container {
+  width: 200px; /* Set the width you want for your image container */
+  height: 100px; /* Set the desired shorter height */
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+
+  /* Hiding of the html*/
+
+.coffee-hide {
+    display: none;
+    position: absolute;
+  }
+
+  /* Hoovering */ 
+.plant-colombia:hover .coffee-hide {
+    display: block;
+  }
+
+.plant-brazil:hover .coffee-hide {
+    display: block;
+  }
+
+
+.farm-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+
+/* Fonts */
+.miama-presentation {
+    font-family: 'Miama';
+    font-size: 120px;
+}
+
+.white-text {
+  color: white;
+}
+
+.no-text {
+  color: transparent;
+}
+
+.mont-presentation {
+  font-family: 'Montserrat-bold';
+  font-size: 64px;
+}
+
+/* SCSS Bootstrap */
+.accordion{
+  --bs-accordion-border-width: none;
+  --bs-accordion-active-bg: none;
+  --bs-accordion-bg: none;
+  --bs-accordion-btn-padding-y: 2rem;
+}
+
+/* Initially hide the accordion body, and show it on hover */
+.accordion .accordion-collapse {
+  display: none;
+}
+
+/* Show the accordion body when the header is being hovered */
+.accordion .accordion-item:hover .accordion-collapse {
+  display: block;
+}
+
+/* Add a smooth transition effect when expanding the accordion item */
+.accordion .accordion-collapse {
+  transition: max-height 0.3s ease;
+  transition-delay: 10s;
+}
+
+.accordion-button {
+  background-image: none;
+}
+
+
+/* Media */ 
+@media screen and (max-width: 480px) {
+  #accordion-column{
+    display: none;
+    position: absolute;
+  }
+}
+
+@media screen and (max-height: 500px){
+  .bg2{
+    height: 200vh;
+  }
+}
+
+/* Media query for screens with a maximum width of 500px */
+@media screen and (max-width: 500px) {
+  .plant-brazil {
+    left: 85%;
+    /* Adjust the top position and other styles as needed for this screen size */
+  }
+}
+
+/* Media query for screens with a width between 501px and 958px (inclusive) */
+@media screen and (min-width: 501px) and (max-width: 958px) {
+  .plant-brazil {
+    left: 70%;
+    /* Adjust the top position and other styles as needed for this screen size */
+  }
+}
+
+/* Common styles for both media queries */
+@media screen and (max-width: 500px), screen and (min-width: 501px) and (max-width: 958px) {
+  .plant-brazil {
+    top: 39%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,45 @@
+.home-img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.end-img{
+    filter: brightness(70%)
+}
+
+.end-text {
+    filter: brightness(100%)
+}
+
+.p, h5 {
+    font-family: 'Montserrat-reg';
+}
+
+
+/* Fonts */
+.miama {
+    font-family: 'Miama';
+    font-size: 52px;
+}
+
+.mont-bold {
+    font-family: 'Montserrat-semi-bold';
+}
+
+.mont-reg {
+    font-family: 'Montserrat-reg';
+}
+
+@font-face {
+    font-family: 'Montserrat-semi-bold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: 'Montserrat-reg';
+    src: url('./fonts/Montserrat-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Miama';
+    src: url('./fonts/miama.regular.otf') format('opentype');
+    /* Add other font properties if needed */
+  }

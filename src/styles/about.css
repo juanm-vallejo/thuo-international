@@ -1,0 +1,18 @@
+.miama {
+    font-family: 'Miama';
+    font-size: 48px;
+}
+
+.mont-reg {
+    font-family: 'Montserrat-reg';
+}
+
+@font-face {
+    font-family: 'Miama';
+    src: url('./fonts/miama.regular.otf') format('opentype');
+    /* Add other font properties if needed */
+  }
+  @font-face {
+    font-family: 'Montserrat-reg';
+    src: url('./fonts/Montserrat-Regular.ttf');
+  }

@@ -1,0 +1,36 @@
+.mont-bold {
+    font-family: 'Montserrat-semi-bold';
+}
+
+.mont-reg
+ {
+    font-family: 'Montserrat-reg';
+}
+
+.mont-semi-bold{
+  font-family: 'Montserrat-semi-bold';
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .flag-container {
+    display: none;
+  }
+}
+
+@font-face {
+    font-family: 'Montserrat-semi-bold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+  }
+@font-face {
+    font-family: 'Montserrat-reg';
+    src: url('./fonts/Montserrat-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Montserrat-semi-bold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+  }

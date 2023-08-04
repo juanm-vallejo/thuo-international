@@ -1,0 +1,27 @@
+
+.nav-link {
+    font-family: 'Montserrat-Semi-bold';
+    font-size: 24px;
+  }
+
+  .h3-foot {
+    font-size: 48px;
+  }
+
+  /* Media query for mobile devices */
+@media (max-width: 767px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}
+  
+  @font-face {
+    font-family: 'Miama';
+    src: url('./fonts/miama.regular.otf') format('opentype');
+    /* Add other font properties if needed */
+  }
+  
+  @font-face {
+    font-family: 'Montserrat-Semi-bold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+  }

@@ -1,0 +1,32 @@
+.img-services {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 27rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+.mont-bold {
+    font-family: 'Montserrat-semi-bold';
+}
+
+.mont-reg {
+    font-family: 'Montserrat-reg';
+}
+
+@font-face {
+    font-family: 'Montserrat-semi-bold';
+    src: url('./fonts/Montserrat-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: 'Montserrat-reg';
+    src: url('./fonts/Montserrat-Regular.ttf');
+  }
