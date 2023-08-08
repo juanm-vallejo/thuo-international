@@ -1,5 +1,5 @@
-import React from 'react';
-import {useState, useEffect} from 'react';
+import React  , { useState, useEffect }from 'react';
+
 
 /* Assets */
 import MapComponent from '../assets/svg/LatinAmerica'
@@ -56,7 +56,7 @@ function Coffee() {
               <PlantComponent></PlantComponent>
               <div className='coffee-hide'>
                 <button className='mont-reg' onClick={handleFazendaFlorestaClick}>
-                  Fazenda Floresta
+                  Brazil 
                 </button>
               </div>
             </div>
@@ -64,7 +64,7 @@ function Coffee() {
               <PlantComponent width='24pt' height='36pt'></PlantComponent>
               <div className='coffee-hide'>
                 <button className='mont-reg' onClick={handleColombianFederationClick}>
-                  Colombian Coffee Federation
+                  Colombia
                 </button>
               </div>
             </div>
@@ -78,7 +78,7 @@ function Coffee() {
           <ColombianCoffee></ColombianCoffee>
         </Container>
       </div>
-    );
+    )
   }
   
   export default Coffee;

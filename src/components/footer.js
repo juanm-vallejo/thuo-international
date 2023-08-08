@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Nav, Container, Row } from 'react-bootstrap';
+import {Container, Row } from 'react-bootstrap';
 
 /*Css*/
 import '../styles/footer.css'
@@ -18,14 +18,14 @@ function Footer(){
                         <small class="d-block mb-3 text-muted">Forging Connections that Matter <br></br>2016-2023</small>
                     </div>
                         <div class="col-6 col-md">
-                            <Link to="about" className="nav-link">About Us</Link>
+                            <Link to="about" className="nav-link-fo">About Us</Link>
                             
                         </div>
                         <div class="col-6 col-md">
-                            <Link to="services" className="nav-link">Services</Link>
+                            <Link to="services" className="nav-link-fo">Services</Link>
                         </div>
                         <div class="col-6 col-md">
-                            <Link to="Contact" className="nav-link">Contact</Link>
+                            <Link to="Contact" className="nav-link-fo">Contact</Link>
                         </div>
                 </Row>
             </footer>

@@ -8,19 +8,19 @@ import fazendaFloresta from '../assets/img/fazenda-floresta.png'
 import {Accordion} from 'react-bootstrap';
 
 
-function fazendaFlorestaCoffee() {
+function BrazilCoffee() {
     return(
     <div>
         <div className='bg-coffee'>
                 <div className='flex-container'>
-                    <img src={fazendaFloresta}></img>
+                    <img src={fazendaFloresta} alt='fazenda-pic'></img>
                     <div className='col-6'>
-                        <p className='farm-description mont-reg'>There is a place above 1,100 meters of altitude that we call <br></br>"Fazenda Floresta."</p>
+                        <p className='farm-description mont-reg'>There is a place above 1,100 meters of altitude with amazing coffee <br></br>"Minas Gerais."</p>
                     </div>
                 </div>
             </div>
-            <h1 className='mont-bold mt-5'>Fazenda Floresta</h1>
-            <h2 className='mont reg'>Minas Gerais, Brazil.</h2>
+            <h1 className='mont-bold mt-5'>Minas Gerais, Brazil.</h1>
+            {/*<h2 className='mont reg'></h2> In case we add the farm name*/}
             <div className='flex-container'> 
                 <table className='table-coffee col-6'>
                     <tbody>
@@ -166,4 +166,4 @@ function fazendaFlorestaCoffee() {
     </div>);
 }
 
-export default fazendaFlorestaCoffee;
+export default BrazilCoffee;

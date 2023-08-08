@@ -1,5 +1,5 @@
 
-.nav-link {
+.nav-link-fo {
     font-family: 'Montserrat-Semi-bold';
     font-size: 24px;
   }
@@ -7,6 +7,13 @@
   .h3-foot {
     font-size: 48px;
   }
+
+  a:-webkit-any-link {
+    /* Resetting or overriding styles */
+    color: initial;
+    cursor: auto;
+    text-decoration: none;
+}
 
   /* Media query for mobile devices */
 @media (max-width: 767px) {

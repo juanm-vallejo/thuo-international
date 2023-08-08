@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 /*Bootstrap*/
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 /*Styles*/
@@ -31,16 +31,23 @@ function NavBar(){
           <Navbar.Collapse id="navbarNav" className='justify-content-end'>
             <Nav>
               <Nav.Item>
-                <Link to="/" className="nav-link" style={{fontSize:'16px'}}>Home</Link>
+                <Link to="/" className="nav-link">Home</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/about" className="nav-link" style={{fontSize:'16px'}}>About</Link>
+                <Link to="/about" className="nav-link">About</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/services" className="nav-link" style={{fontSize:'16px'}}>Services</Link>
+                <Link to="/services" className="nav-link">Services</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/contact" className="nav-link" style={{fontSize:'16px'}}>Contact</Link>
+                <Link to="/contact" className="nav-link">Contact</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <NavDropdown title="Products" id="basic-nav-dropdown">
+                  <NavDropdown.Item>
+                    <Link to="/coffee" className="nav-link">Coffee</Link>
+                  </NavDropdown.Item>
+                </NavDropdown>
               </Nav.Item>
             </Nav>
           </Navbar.Collapse>

@@ -20,7 +20,7 @@ function Contact () {
             <Row className='d-flex align-items-center'>
                 <div className='col-6'>
                     <ul className='no-bullets'>
-                        <li className='mont-semi-bold' >US department email and phone:</li>
+                        <li className='mont-semi-bold' >US department email:</li>
                         <li className='mont-reg'>admin@thuointernational.com</li>
                         <li className='mont-reg'></li>
                     </ul>
